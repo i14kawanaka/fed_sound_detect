@@ -1,0 +1,719 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		759D72A9270CBC3E009AFB01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759D72A8270CBC3E009AFB01 /* AppDelegate.swift */; };
+		759D72AB270CBC3E009AFB01 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759D72AA270CBC3E009AFB01 /* SceneDelegate.swift */; };
+		759D72AD270CBC3E009AFB01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759D72AC270CBC3E009AFB01 /* ViewController.swift */; };
+		759D72B0270CBC3F009AFB01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 759D72AE270CBC3F009AFB01 /* Main.storyboard */; };
+		759D72B2270CBC46009AFB01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 759D72B1270CBC46009AFB01 /* Assets.xcassets */; };
+		759D72B5270CBC46009AFB01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 759D72B3270CBC46009AFB01 /* LaunchScreen.storyboard */; };
+		759D72C0270CBC47009AFB01 /* M1_kawanakaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759D72BF270CBC47009AFB01 /* M1_kawanakaTests.swift */; };
+		759D72CA270CBC47009AFB01 /* M1_kawanakaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759D72C9270CBC47009AFB01 /* M1_kawanakaUITests.swift */; };
+		759D72CC270CBC47009AFB01 /* M1_kawanakaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759D72CB270CBC47009AFB01 /* M1_kawanakaUITestsLaunchTests.swift */; };
+		759D72D9270CBCE1009AFB01 /* SocketSignal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759D72D8270CBCE1009AFB01 /* SocketSignal.swift */; };
+		759D72DB270CC371009AFB01 /* responseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759D72DA270CC371009AFB01 /* responseModel.swift */; };
+		759D72DF270DDE9E009AFB01 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 759D72DE270DDE9D009AFB01 /* GoogleService-Info.plist */; };
+		759D72E0270DDE9E009AFB01 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 759D72DE270DDE9D009AFB01 /* GoogleService-Info.plist */; };
+		759D72E1270DDE9E009AFB01 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 759D72DE270DDE9D009AFB01 /* GoogleService-Info.plist */; };
+		75B3964D270F699D00ED6374 /* SubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B3964C270F699D00ED6374 /* SubViewController.swift */; };
+		FE3F171E10347A6A52131C9F /* Pods_M1_kawanaka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3808E595C123CFFE28EE54E /* Pods_M1_kawanaka.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		759D72BC270CBC47009AFB01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 759D729D270CBC3E009AFB01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 759D72A4270CBC3E009AFB01;
+			remoteInfo = M1_kawanaka;
+		};
+		759D72C6270CBC47009AFB01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 759D729D270CBC3E009AFB01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 759D72A4270CBC3E009AFB01;
+			remoteInfo = M1_kawanaka;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		59CE1F36678734CEEDAAA7DD /* Pods-M1_kawanaka.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-M1_kawanaka.debug.xcconfig"; path = "Target Support Files/Pods-M1_kawanaka/Pods-M1_kawanaka.debug.xcconfig"; sourceTree = "<group>"; };
+		759D72A5270CBC3E009AFB01 /* M1_kawanaka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = M1_kawanaka.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		759D72A8270CBC3E009AFB01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		759D72AA270CBC3E009AFB01 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		759D72AC270CBC3E009AFB01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		759D72AF270CBC3F009AFB01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		759D72B1270CBC46009AFB01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		759D72B4270CBC46009AFB01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		759D72B6270CBC46009AFB01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		759D72BB270CBC47009AFB01 /* M1_kawanakaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = M1_kawanakaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		759D72BF270CBC47009AFB01 /* M1_kawanakaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M1_kawanakaTests.swift; sourceTree = "<group>"; };
+		759D72C5270CBC47009AFB01 /* M1_kawanakaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = M1_kawanakaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		759D72C9270CBC47009AFB01 /* M1_kawanakaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M1_kawanakaUITests.swift; sourceTree = "<group>"; };
+		759D72CB270CBC47009AFB01 /* M1_kawanakaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M1_kawanakaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		759D72D8270CBCE1009AFB01 /* SocketSignal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketSignal.swift; sourceTree = "<group>"; };
+		759D72DA270CC371009AFB01 /* responseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = responseModel.swift; sourceTree = "<group>"; };
+		759D72DE270DDE9D009AFB01 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		75B3964C270F699D00ED6374 /* SubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubViewController.swift; sourceTree = "<group>"; };
+		A3808E595C123CFFE28EE54E /* Pods_M1_kawanaka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_M1_kawanaka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F00393C9E9857680CAF4BC8C /* Pods-M1_kawanaka.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-M1_kawanaka.release.xcconfig"; path = "Target Support Files/Pods-M1_kawanaka/Pods-M1_kawanaka.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		759D72A2270CBC3E009AFB01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE3F171E10347A6A52131C9F /* Pods_M1_kawanaka.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		759D72B8270CBC47009AFB01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		759D72C2270CBC47009AFB01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08A3CB5AB9B339146CF51483 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				59CE1F36678734CEEDAAA7DD /* Pods-M1_kawanaka.debug.xcconfig */,
+				F00393C9E9857680CAF4BC8C /* Pods-M1_kawanaka.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		759D729C270CBC3E009AFB01 = {
+			isa = PBXGroup;
+			children = (
+				759D72A7270CBC3E009AFB01 /* M1_kawanaka */,
+				759D72BE270CBC47009AFB01 /* M1_kawanakaTests */,
+				759D72C8270CBC47009AFB01 /* M1_kawanakaUITests */,
+				759D72A6270CBC3E009AFB01 /* Products */,
+				08A3CB5AB9B339146CF51483 /* Pods */,
+				D68F489A039F6B73B0F9AEC9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		759D72A6270CBC3E009AFB01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				759D72A5270CBC3E009AFB01 /* M1_kawanaka.app */,
+				759D72BB270CBC47009AFB01 /* M1_kawanakaTests.xctest */,
+				759D72C5270CBC47009AFB01 /* M1_kawanakaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		759D72A7270CBC3E009AFB01 /* M1_kawanaka */ = {
+			isa = PBXGroup;
+			children = (
+				759D72DE270DDE9D009AFB01 /* GoogleService-Info.plist */,
+				759D72A8270CBC3E009AFB01 /* AppDelegate.swift */,
+				759D72AA270CBC3E009AFB01 /* SceneDelegate.swift */,
+				759D72AC270CBC3E009AFB01 /* ViewController.swift */,
+				759D72DA270CC371009AFB01 /* responseModel.swift */,
+				759D72D8270CBCE1009AFB01 /* SocketSignal.swift */,
+				759D72AE270CBC3F009AFB01 /* Main.storyboard */,
+				75B3964C270F699D00ED6374 /* SubViewController.swift */,
+				759D72B1270CBC46009AFB01 /* Assets.xcassets */,
+				759D72B3270CBC46009AFB01 /* LaunchScreen.storyboard */,
+				759D72B6270CBC46009AFB01 /* Info.plist */,
+			);
+			path = M1_kawanaka;
+			sourceTree = "<group>";
+		};
+		759D72BE270CBC47009AFB01 /* M1_kawanakaTests */ = {
+			isa = PBXGroup;
+			children = (
+				759D72BF270CBC47009AFB01 /* M1_kawanakaTests.swift */,
+			);
+			path = M1_kawanakaTests;
+			sourceTree = "<group>";
+		};
+		759D72C8270CBC47009AFB01 /* M1_kawanakaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				759D72C9270CBC47009AFB01 /* M1_kawanakaUITests.swift */,
+				759D72CB270CBC47009AFB01 /* M1_kawanakaUITestsLaunchTests.swift */,
+			);
+			path = M1_kawanakaUITests;
+			sourceTree = "<group>";
+		};
+		D68F489A039F6B73B0F9AEC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3808E595C123CFFE28EE54E /* Pods_M1_kawanaka.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		759D72A4270CBC3E009AFB01 /* M1_kawanaka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 759D72CF270CBC47009AFB01 /* Build configuration list for PBXNativeTarget "M1_kawanaka" */;
+			buildPhases = (
+				FF9D68008E540D6496F98B6C /* [CP] Check Pods Manifest.lock */,
+				759D72A1270CBC3E009AFB01 /* Sources */,
+				759D72A2270CBC3E009AFB01 /* Frameworks */,
+				759D72A3270CBC3E009AFB01 /* Resources */,
+				02E3F7D13836CEAD81ABA538 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = M1_kawanaka;
+			productName = M1_kawanaka;
+			productReference = 759D72A5270CBC3E009AFB01 /* M1_kawanaka.app */;
+			productType = "com.apple.product-type.application";
+		};
+		759D72BA270CBC47009AFB01 /* M1_kawanakaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 759D72D2270CBC47009AFB01 /* Build configuration list for PBXNativeTarget "M1_kawanakaTests" */;
+			buildPhases = (
+				759D72B7270CBC47009AFB01 /* Sources */,
+				759D72B8270CBC47009AFB01 /* Frameworks */,
+				759D72B9270CBC47009AFB01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				759D72BD270CBC47009AFB01 /* PBXTargetDependency */,
+			);
+			name = M1_kawanakaTests;
+			productName = M1_kawanakaTests;
+			productReference = 759D72BB270CBC47009AFB01 /* M1_kawanakaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		759D72C4270CBC47009AFB01 /* M1_kawanakaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 759D72D5270CBC47009AFB01 /* Build configuration list for PBXNativeTarget "M1_kawanakaUITests" */;
+			buildPhases = (
+				759D72C1270CBC47009AFB01 /* Sources */,
+				759D72C2270CBC47009AFB01 /* Frameworks */,
+				759D72C3270CBC47009AFB01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				759D72C7270CBC47009AFB01 /* PBXTargetDependency */,
+			);
+			name = M1_kawanakaUITests;
+			productName = M1_kawanakaUITests;
+			productReference = 759D72C5270CBC47009AFB01 /* M1_kawanakaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		759D729D270CBC3E009AFB01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					759D72A4270CBC3E009AFB01 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					759D72BA270CBC47009AFB01 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 759D72A4270CBC3E009AFB01;
+					};
+					759D72C4270CBC47009AFB01 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 759D72A4270CBC3E009AFB01;
+					};
+				};
+			};
+			buildConfigurationList = 759D72A0270CBC3E009AFB01 /* Build configuration list for PBXProject "M1_kawanaka" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 759D729C270CBC3E009AFB01;
+			productRefGroup = 759D72A6270CBC3E009AFB01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				759D72A4270CBC3E009AFB01 /* M1_kawanaka */,
+				759D72BA270CBC47009AFB01 /* M1_kawanakaTests */,
+				759D72C4270CBC47009AFB01 /* M1_kawanakaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		759D72A3270CBC3E009AFB01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				759D72B5270CBC46009AFB01 /* LaunchScreen.storyboard in Resources */,
+				759D72DF270DDE9E009AFB01 /* GoogleService-Info.plist in Resources */,
+				759D72B2270CBC46009AFB01 /* Assets.xcassets in Resources */,
+				759D72B0270CBC3F009AFB01 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		759D72B9270CBC47009AFB01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				759D72E0270DDE9E009AFB01 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		759D72C3270CBC47009AFB01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				759D72E1270DDE9E009AFB01 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02E3F7D13836CEAD81ABA538 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-M1_kawanaka/Pods-M1_kawanaka-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-M1_kawanaka/Pods-M1_kawanaka-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-M1_kawanaka/Pods-M1_kawanaka-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF9D68008E540D6496F98B6C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-M1_kawanaka-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		759D72A1270CBC3E009AFB01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				759D72D9270CBCE1009AFB01 /* SocketSignal.swift in Sources */,
+				759D72AD270CBC3E009AFB01 /* ViewController.swift in Sources */,
+				759D72A9270CBC3E009AFB01 /* AppDelegate.swift in Sources */,
+				75B3964D270F699D00ED6374 /* SubViewController.swift in Sources */,
+				759D72AB270CBC3E009AFB01 /* SceneDelegate.swift in Sources */,
+				759D72DB270CC371009AFB01 /* responseModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		759D72B7270CBC47009AFB01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				759D72C0270CBC47009AFB01 /* M1_kawanakaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		759D72C1270CBC47009AFB01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				759D72CA270CBC47009AFB01 /* M1_kawanakaUITests.swift in Sources */,
+				759D72CC270CBC47009AFB01 /* M1_kawanakaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		759D72BD270CBC47009AFB01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 759D72A4270CBC3E009AFB01 /* M1_kawanaka */;
+			targetProxy = 759D72BC270CBC47009AFB01 /* PBXContainerItemProxy */;
+		};
+		759D72C7270CBC47009AFB01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 759D72A4270CBC3E009AFB01 /* M1_kawanaka */;
+			targetProxy = 759D72C6270CBC47009AFB01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		759D72AE270CBC3F009AFB01 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				759D72AF270CBC3F009AFB01 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		759D72B3270CBC46009AFB01 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				759D72B4270CBC46009AFB01 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		759D72CD270CBC47009AFB01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		759D72CE270CBC47009AFB01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		759D72D0270CBC47009AFB01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59CE1F36678734CEEDAAA7DD /* Pods-M1_kawanaka.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZHGQWHC63U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = M1_kawanaka/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Practice.M1-kawanaka";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		759D72D1270CBC47009AFB01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F00393C9E9857680CAF4BC8C /* Pods-M1_kawanaka.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZHGQWHC63U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = M1_kawanaka/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Practice.M1-kawanaka";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		759D72D3270CBC47009AFB01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZHGQWHC63U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Practice.M1-kawanakaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/M1_kawanaka.app/M1_kawanaka";
+			};
+			name = Debug;
+		};
+		759D72D4270CBC47009AFB01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZHGQWHC63U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Practice.M1-kawanakaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/M1_kawanaka.app/M1_kawanaka";
+			};
+			name = Release;
+		};
+		759D72D6270CBC47009AFB01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZHGQWHC63U;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Practice.M1-kawanakaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = M1_kawanaka;
+			};
+			name = Debug;
+		};
+		759D72D7270CBC47009AFB01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZHGQWHC63U;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Practice.M1-kawanakaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = M1_kawanaka;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		759D72A0270CBC3E009AFB01 /* Build configuration list for PBXProject "M1_kawanaka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				759D72CD270CBC47009AFB01 /* Debug */,
+				759D72CE270CBC47009AFB01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		759D72CF270CBC47009AFB01 /* Build configuration list for PBXNativeTarget "M1_kawanaka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				759D72D0270CBC47009AFB01 /* Debug */,
+				759D72D1270CBC47009AFB01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		759D72D2270CBC47009AFB01 /* Build configuration list for PBXNativeTarget "M1_kawanakaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				759D72D3270CBC47009AFB01 /* Debug */,
+				759D72D4270CBC47009AFB01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		759D72D5270CBC47009AFB01 /* Build configuration list for PBXNativeTarget "M1_kawanakaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				759D72D6270CBC47009AFB01 /* Debug */,
+				759D72D7270CBC47009AFB01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 759D729D270CBC3E009AFB01 /* Project object */;
+}
